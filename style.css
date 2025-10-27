@@ -1,0 +1,23 @@
+main{
+      display: flex; /* or inline-flex */
+    flex-direction: row; 
+     height: 80vh;
+  width: 50vw; /* 50% ширини екрана (viewport width) */
+  background-color: lightblue;
+  margin: 0 auto; /* центрує по горизонталі */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cover { 
+    flex: 1;
+    object-fit: cover;
+
+}
+.content { flex: 1; }
+
+
+content-footer{
+      display: flex; /* or inline-flex */
+    flex-direction: row; 
+}
